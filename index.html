@@ -43,7 +43,7 @@ var ans = n / 5;
 document.write("The ans is = "+ans); */
 
 // 4th problem solved 
-let N1 = prompt("Enter the First number = ");
+/* let N1 = prompt("Enter the First number = ");
 let N2 = prompt("Enter the Second number = ");
 
 if ( N1 > N2 ){
@@ -55,8 +55,22 @@ if ( N1 < N2 ){
 else if(N1 == N2)
 {
  document.write("They are equal");
+} */
+  
+//   Another example
+
+let age = prompt("Enter the age = ");
+let price = prompt("Enter the price = ");
+var update_price , discount;
+
+if(age <= 12){
+    document.write("Child can eat free here");
 }
- 
+else if(age>=50){
+    discount = ( price * 25 ) / 100 ;
+    update_price = price - discount;
+    document.write("After discount the price will be = " +update_price)
+}
     </script>
 </body>
 </html>
