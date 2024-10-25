@@ -5,7 +5,6 @@
 /* var x=10, y = 3;
 console.log("the ans is = " + ( x % y));
  */
+const numbers =[12,87,98,45];
 
-var x=10;
-x *=3 ;
-console.log(x);
+ 
